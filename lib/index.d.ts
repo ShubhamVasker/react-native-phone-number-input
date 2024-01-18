@@ -30,7 +30,8 @@ export interface PhoneInputProps {
   layout?: "first" | "second";
   filterProps?: CountryFilterProps;
   countryPickerProps?: any;
-  placeholderTextColor?:StyleProp<TextStyle>
+  placeholderTextColor?: StyleProp<TextStyle>
+  selectionColor?:String
 }
 export interface PhoneInputState {
   code: CallingCode | undefined;
